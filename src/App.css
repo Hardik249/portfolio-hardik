@@ -36,3 +36,94 @@
     transform: rotate(360deg);
   }
 }
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: unset;
+  color: #fff;
+}
+
+#contact a {
+  color: black;
+}
+
+section {
+  margin: 20px;
+}
+
+.ml-0{
+  margin-left: 0.5%;
+}
+
+.buttton{
+  border: none;
+  background-color: unset;
+  cursor: copy;
+  text-decoration: none;
+  font-size: unset;
+  margin-left: 0.5%;
+}
+
+/* styles/styles.css */
+#skills {
+  margin: 20px;
+}
+
+#skills h2 {
+  color: #333;
+}
+
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skills li {
+  margin-bottom: 8px;
+}
+
+/* styles/styles.css */
+#companies {
+  margin: 20px;
+}
+
+#companies h2 {
+  color: #333;
+}
+
+#companies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#companies li {
+  margin-bottom: 8px;
+}
+
+table {
+  border: 2px solid black;
+  width: 800px;
+  height: 200px;
+  margin-left: 21%;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
