@@ -4,16 +4,16 @@ import React from 'react';
 export default function Experience () {
   const experiences = [
     {
+      company: 'Karavya Solutions LLp',
+      position: 'Jr. Software Engineer',
+      duration: 'June 2022 - Present',
+      description: 'Worked on Many projects, implemented new features, and collaborated with cross-functional teams.',
+    },
+    {
       company: 'Mehta Infosoft Pvt. Ltd.',
       position: 'Software Engineer',
       duration: 'January 2022 - June 2022',
       description: 'Worked on Matrimony project, implemented new features, and collaborated with cross-functional teams.',
-    },
-    {
-      company: 'Karavya Solutions LLp',
-      position: 'Software Engineer',
-      duration: 'June 2022 - Present',
-      description: 'Worked on Many projects, implemented new features, and collaborated with cross-functional teams.',
     },
     // Add more experiences as needed
   ];

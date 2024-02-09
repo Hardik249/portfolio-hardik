@@ -28,13 +28,21 @@ export default function Skills() {
     return(
         <div>
             <section id="skills">
-            {/* <h2>Skills</h2> */}
-            <h2>What I Learnt and Aquired</h2>
-            <ul>
-                {skillsList.map((skill, index) => (
-                <li key={index}>{skill}</li>
-                ))}
-            </ul>
+                {/* <h2>Skills</h2> */}
+                <h2>What I Learnt and Aquired</h2>
+                {/* <ul>
+                    {skillsList.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                    ))}
+                </ul> */}
+                <div className="skills-grid">
+                    {skillsList.map((skill, index) => (
+                    <div key={index} className="skill-item">
+                        {/* <FontAwesomeIcon icon={skill.icon} className="skill-icon" /> */}
+                        <p>{skill}</p>
+                    </div>
+                    ))}
+                </div>
             </section>
         </div>
     )

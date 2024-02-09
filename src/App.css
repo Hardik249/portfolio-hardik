@@ -67,7 +67,7 @@ section {
   margin-left: 0.5%;
 }
 
-.buttton{
+.button{
   border: none;
   background-color: unset;
   cursor: copy;
@@ -79,6 +79,7 @@ section {
 /* styles/styles.css */
 #skills {
   margin: 20px;
+  padding: 40px;
 }
 
 #skills h2 {
@@ -112,6 +113,26 @@ section {
   margin-bottom: 8px;
 }
 
+/* styles/styles.css */
+#experience {
+  margin: 20px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  color: #333;
+}
+
+.experience-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
 table {
   border: 2px solid black;
   width: 800px;
@@ -127,3 +148,38 @@ td {
   text-align: center;
 }
 
+.project-card {
+  border: 1px solid #ddd;
+  /* border-radius: 8px; */
+  padding: 20px;
+  margin-bottom: 20px;
+  /* box-shadow: 0 4px 8px rgb(0 0 0 / 10%); */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
+}
+
+.project-card h3 {
+  color: #007bff;
+}
+
+.project-card p {
+  margin: 10px 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.skill-item {
+  text-align: center;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer-div a {
+  color: black;
+}

@@ -17,15 +17,21 @@ export default function Contact() {
                 <a href="mailto:hardikkotak249@gmail.com" className="ml-0">
                     hardikkotak249@gmail.com
                 </a>
-                <button onClick={handleCopyEmail} className="buttton">Copy Email</button>
+                <button onClick={handleCopyEmail} className="button">Copy Email</button>
             </p>
             <p>Contact : +91 6355238151
-                <button onClick={handleCopyNumber} className="buttton">Copy Contact</button>
+                <button onClick={handleCopyNumber} className="button">Copy Contact</button>
             </p>
             <p>
                 <a href="https://api.whatsapp.com/send?phone=6355238151" rel="noreferrer" target='_blank'>
                     Contact Me on WhatsApp
                 </a>
+            </p>
+            <p>
+                Need help with a project or want to discuss collaboration?
+                <button onClick={() => alert("Feel free to reach out!")} className="button">
+                Get in Touch
+                </button>
             </p>
           {/* <p>LinkedIn: linkedin.com/in/yourprofile</p> */}
           {/* Add more contact information */}

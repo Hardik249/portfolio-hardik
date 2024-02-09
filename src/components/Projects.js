@@ -1,7 +1,8 @@
 import React from "react";
+import ProjectCard from './ProjectCard';
 
 export default function Projects() {
-    const projectsList = [
+    const projectData = [
         {
             id:1,
             title: "Ecommerce Web Application",
@@ -28,13 +29,15 @@ export default function Projects() {
         <section id="projects">
           {/* <h2>Projects</h2> */}
           <h2>Which I developed</h2>
+          {projectData.map((project, index) => (
+            <ProjectCard key={index} {...project} />
+          ))}
           {/* List your projects here */}
           {/* <p>These are my Projects</p> */}
-          <table>
+          {/* <table>
                 <tr>
                     <th>No.</th>
                     <th>title</th>
-                    {/* <th>description</th> */}
                     <th>technology</th>
                     <th>duration</th>
                 </tr>
@@ -43,13 +46,12 @@ export default function Projects() {
                         <tr key={key}>
                             <td>{val.id}</td>
                             <td>{val.title}</td>
-                            {/* <td>{val.description}</td> */}
                             <td>{val.technology}</td>
                             <td>{val.duration}</td>
                         </tr>
                     )
                 })}
-            </table>
+            </table> */}
         </section>
     );
 }
