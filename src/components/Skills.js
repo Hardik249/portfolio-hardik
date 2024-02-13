@@ -5,8 +5,8 @@ export default function Skills() {
         'JavaScript',
         'React.js',
         'Vue.js',
-        'HTML',
-        'CSS',
+        'HTML5',
+        'CSS3',
         'Core PHP',
         'Symfony',
         'Bootstrap',
@@ -15,6 +15,7 @@ export default function Skills() {
         'Node.js',
         'Express.js',
         'MongoDB',
+        'MERN-Stack',
         'MySQL',
         'Git',
         'Responsive Web Design',
@@ -27,20 +28,24 @@ export default function Skills() {
     ];
     return(
         <div>
-            <section id="skills">
+            <section id="skills" className="m-5 p-10">
                 {/* <h2>Skills</h2> */}
-                <h2>What I Learnt and Aquired</h2>
+                <h2 className="text-black text-2xl">What I Learnt and Aquired</h2>
                 {/* <ul>
                     {skillsList.map((skill, index) => (
                     <li key={index}>{skill}</li>
                     ))}
                 </ul> */}
-                <div className="skills-grid">
+                <div className="grid grid-cols-4 gap-4 mt-4 ">
+                    {/* <ul>
                     {skillsList.map((skill, index) => (
-                    <div key={index} className="skill-item">
-                        {/* <FontAwesomeIcon icon={skill.icon} className="skill-icon" /> */}
-                        <p>{skill}</p>
-                    </div>
+                        <li key={index} className="border">{skill}</li>
+                    ))}
+                    </ul> */}
+                    {skillsList.map((skill, index) => (
+                    <ul key={index} className="border rounded-full border-sky-100 bg-sky-50 px-2 py-0.5 dark:text-sky-300">
+                        <li>{skill}</li>
+                    </ul>
                     ))}
                 </div>
             </section>

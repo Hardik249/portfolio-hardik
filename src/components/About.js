@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
     return (
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="about" className="m-5">
+            <h2 className="text-2xl">About Me</h2>
             {/* <p>Your introduction goes here.</p> */}
             {/* <h1>My Portfolio</h1> */}
             <p>This is my portfolio website.</p>

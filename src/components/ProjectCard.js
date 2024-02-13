@@ -3,10 +3,10 @@ import React from 'react';
 
 const ProjectCard = ({ title, description, technology }) => {
   return (
-    <div className="project-card">
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <p><strong>Technologies:</strong> {technology}</p>
+    <div className="border p-5 mb-5 shadow-lg">
+      <h3 className='text-blue-500'>{title}</h3>
+      <p className='m-3'>{description}</p>
+      <p className='m-3'><strong>Technologies:</strong> {technology}</p>
     </div>
   );
 };

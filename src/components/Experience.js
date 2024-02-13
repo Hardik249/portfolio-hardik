@@ -19,15 +19,15 @@ export default function Experience () {
   ];
 
   return (
-    <section id="experience">
+    <section id="experience" className="m-5">
       {/* <h2>Experience</h2> */}
-      <h2>What I Earned</h2>
+      <h2 className="text-2xl">Where I Worked</h2>
       {experiences.map((experience, index) => (
-        <div key={index} className="experience-item">
-          <h3>{experience.company}</h3>
-          <p>{experience.position}</p>
-          <p>{experience.duration}</p>
-          <p>{experience.description}</p>
+        <div key={index} className="experience-item mb-5">
+          <h3 className='text-black'>{experience.company}</h3>
+          <p className='text-gray-600 text-sm m-1'>{experience.position}</p>
+          <p className='text-gray-600 text-sm m-1'>{experience.duration}</p>
+          <p className='text-gray-600 text-sm m-1'>{experience.description}</p>
         </div>
       ))}
     </section>

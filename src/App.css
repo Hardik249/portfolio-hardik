@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,49 +35,49 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-}
+} */
 
-header {
+/* header {
   background-color: #333;
   color: #fff;
   padding: 1rem;
   text-align: center;
-}
+} */
 
-a {
+/* a {
   text-decoration: unset;
   color: #fff;
-}
+} */
 
-#contact a {
+/* #contact a {
   color: black;
-}
+} */
 
-section {
+/* section {
   margin: 20px;
-}
+} */
 
-.ml-0{
+/* .ml-0{
   margin-left: 0.5%;
-}
+} */
 
-.button{
+/* .button{
   border: none;
   background-color: unset;
   cursor: copy;
   text-decoration: none;
   font-size: unset;
   margin-left: 0.5%;
-}
+} */
 
 /* styles/styles.css */
-#skills {
+/* #skills {
   margin: 20px;
   padding: 40px;
 }
@@ -93,10 +93,10 @@ section {
 
 #skills li {
   margin-bottom: 8px;
-}
+} */
 
 /* styles/styles.css */
-#companies {
+/* #companies {
   margin: 20px;
 }
 
@@ -111,29 +111,29 @@ section {
 
 #companies li {
   margin-bottom: 8px;
-}
+} */
 
 /* styles/styles.css */
-#experience {
+/* #experience {
   margin: 20px;
-}
+} */
 
-.experience-item {
+/* .experience-item {
   margin-bottom: 20px;
 }
 
 .experience-item h3 {
   color: #333;
-}
+} */
 
-.experience-item p {
+/* .experience-item p {
   margin: 5px 0;
   font-size: 14px;
   color: #666;
-}
+} */
 
 
-table {
+/* table {
   border: 2px solid black;
   width: 800px;
   height: 200px;
@@ -146,26 +146,26 @@ th {
 
 td {
   text-align: center;
-}
+} */
 
-.project-card {
+/* .project-card {
   border: 1px solid #ddd;
-  /* border-radius: 8px; */
   padding: 20px;
   margin-bottom: 20px;
-  /* box-shadow: 0 4px 8px rgb(0 0 0 / 10%); */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);;
-}
+} */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgb(0 0 0 / 10%); */
 
-.project-card h3 {
+/* .project-card h3 {
   color: #007bff;
 }
 
 .project-card p {
   margin: 10px 0;
-}
+} */
 
-.skills-grid {
+/* .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
   gap: 20px;
@@ -173,13 +173,13 @@ td {
 
 .skill-item {
   text-align: center;
-}
+} */
 
-.footer-div {
+/* .footer-div {
   margin-top: 2rem;
   padding-bottom: 1rem;
-}
+} */
 
-.footer-div a {
+/* .footer-div a {
   color: black;
-}
+} */

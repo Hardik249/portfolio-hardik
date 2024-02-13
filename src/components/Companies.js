@@ -7,10 +7,10 @@ export default function Companies() {
     ];
     return(
         <div>
-            <section id="companies">
+            <section id="companies" className="m-5">
             {/* <h2>Companies</h2> */}
-            <h2>Where I worked in</h2>
-            <ul>
+            <h2 className="text-2xl">Where I worked in</h2>
+            <ul className="mt-2">
                 {componiesList.map((skill, index) => (
                 <li key={index}>{skill}</li>
                 ))}
