@@ -36,7 +36,7 @@ export default function Skills() {
                     <li key={index}>{skill}</li>
                     ))}
                 </ul> */}
-                <div className="grid grid-cols-4 gap-4 mt-4 ">
+                <div className="grid xl:grid-cols-4 gap-4 mt-4 ">
                     {/* <ul>
                     {skillsList.map((skill, index) => (
                         <li key={index} className="border">{skill}</li>

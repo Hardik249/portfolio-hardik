@@ -6,7 +6,7 @@ export default function Projects() {
         {
             id:1,
             title: "Ecommerce Web Application",
-            description: "User can view the product list and description. Users can buy the products. Users can track the order. Admin can manage the product with s-cks. Admin can manage the order module.",
+            description: "User can view the product list and description. Users can buy the products. Users can track the order. Admin can manage the product with stocks. Admin can manage the order module.",
             technology: "Vue.js",
             duration: "Apr 2022 - Oct 2022."
         },
